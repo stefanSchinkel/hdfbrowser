@@ -1,6 +1,10 @@
 README
 ======
 
+About
+-----
+A simple python piece to browse HDF5 files. With _very_ basic plotting. Its primary purpose was to play w/ [QTreeViews](https://srinikom.github.io/pyside-docs/PySide/QtGui/QTreeView.html) and learn a bit about [HDF5](https://hdfgroup.org/HDF5/). If you're looking for a proper Python/HDF5 tool have a look at [PyTables](http://www.pytables.org/).
+
 Requirements:
 -------------
 
