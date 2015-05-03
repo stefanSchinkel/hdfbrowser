@@ -19,7 +19,7 @@ from ui.layout import Ui_MainWindow
 from ui.mplwidget import  MPLCanvas
 
 # Model and Items
-from tools.treeView import TreeItem, TreeModel
+from model.treeModel import TreeItem, TreeModel
 
 
 # HDF5 lib

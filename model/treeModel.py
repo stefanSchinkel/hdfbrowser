@@ -2,10 +2,10 @@
 
 ############################################################################
 #   derived from PySide examples to be found at
-#   https://git.gitorious.org/pyside/pyside-examples.git 
+#   https://git.gitorious.org/pyside/pyside-examples.git
 ###########################################################################
 
-from PySide import QtCore, QtGui
+from PySide import QtCore
 
 class TreeItem(object):
     def __init__(self, data, parent=None):
@@ -41,14 +41,14 @@ class TreeItem(object):
         return 0
 
 class TreeModel(QtCore.QAbstractItemModel):
-    """TreeModel provides a template model class to attach to a 
-    QTreeView. All required functions are initalized as well as 
+    """TreeModel provides a template model class to attach to a
+    QTreeView. All required functions are initalized as well as
     and rootItem (self.rootItem <TreeItem>)
     The Idea is to subclass from TreeModel for a when a specific model
     is required and thus saving some boilerplate code
     """
     def __init__(self,parent=None):
-        #init parent 
+        #init parent
         super(TreeModel, self).__init__(parent)
         # and set an empty rootItem
         self.rootItem = TreeItem([])
