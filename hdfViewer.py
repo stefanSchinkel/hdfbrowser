@@ -16,7 +16,6 @@ from PySide import QtCore, QtGui
 
 # Designer parts
 from ui.layout import Ui_MainWindow
-from ui.mplwidget import  MPLCanvas
 
 # Model and Items
 from tools.treeView import TreeItem, TreeModel
