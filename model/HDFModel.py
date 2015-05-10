@@ -27,9 +27,13 @@ class HDFModel(TreeModel):
         self.fileName=fileName
 
         self.setupData()
+
     ############################################################################
     ###                     START RE-IMPLEMENTATION                          ###
     ############################################################################
+    def __str__(self):
+        return "HDFModel"
+
     def data(self, index, role):
         """ Re-mplementation of inherited data method (treeView.py/TreeModel)
         in order to fit the needs for HDF5 files.

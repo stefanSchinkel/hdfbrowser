@@ -53,6 +53,9 @@ class TreeModel(QtCore.QAbstractItemModel):
         # and set an empty rootItem
         self.rootItem = TreeItem([])
 
+    def __str__(self):
+        return "TreeModel"
+
     def columnCount(self, parent):
         if parent.isValid():
             return parent.internalPointer().columnCount()
