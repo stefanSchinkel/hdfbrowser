@@ -1,2 +1,3 @@
 attic/
 *.pyc
+.DS_Store
