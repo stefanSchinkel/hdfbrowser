@@ -1,2 +1,4 @@
 attic/
 *.pyc
+.DS_Store
+README.html

@@ -25,4 +25,4 @@ sudo pip-2.7 install h5py
 
 ###Screenshot:
 
-!["Run with sample data"](./screenshot.png "Run with sample data")
+!["Run with sample data"](./img/screenshot.png "Run with sample data")
