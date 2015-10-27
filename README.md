@@ -18,7 +18,7 @@ In order to ```pip-2.7 install h5py``` a number of dependencies had to be satisf
   * numpy-devel
 
 ```sh
-# on openSuse 13.1 this
+# on openSuse 13.1 this should do the trick
 sudo zypper in python-Cython, hdf5-devel, python-numpy-devel
 sudo pip-2.7 install h5py
 ```
