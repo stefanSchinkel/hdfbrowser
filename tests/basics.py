@@ -35,5 +35,5 @@ class TestStringMethods(unittest.TestCase):
         self.assertEqual(str(self.hdf.fileName), testFile)
 
 if __name__ == '__main__':
-                    unittest.main()
+    unittest.main()
 
